@@ -8,16 +8,19 @@ body {
   font-weight: 800;
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
+
 
 .para {
   font-size: 22px;
 }
 
-.confirm {
+/* Changed position of selector to below .para */
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
+}
+/* Changed selector from .confirm to #confirm-button */
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,14 +32,17 @@ body {
   font-size: 20px;
 }
 
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
+
 
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+/* Changed selector from .child to .text.child */
+div .child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
 }
