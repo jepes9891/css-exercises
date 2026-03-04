@@ -7,21 +7,37 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  /* from here the entries are mine */
+  padding: 13px;
 }
 
 .title {
   background: #e3f4ff;
+  /* from here the entries are mine */
+  font-size: 16px;
+  padding: 10px; 
+  margin-bottom: 10px
 }
 
 .content {
   background: #e3f4ff;
+  /* from here the entries are mine */
+  padding: 5px 10px ;
+  margin-bottom: 10px
 }
 
 .button-container {
   background: #e3f4ff;
+  /* from here the entries are mine */
+  padding: 10px;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  /* from here the entries are mine */
+  display: block;
+  margin: 0 auto;
+  padding: 12px 20px;
 }
